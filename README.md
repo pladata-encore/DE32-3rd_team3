@@ -1,4 +1,4 @@
-# model
+# Team Project #3: ThreeKcal
 ## Overview
 ML 어플리케이션 서비스를 위한 기본 리포지토리
 

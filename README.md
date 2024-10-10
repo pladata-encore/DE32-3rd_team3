@@ -4,8 +4,6 @@ ML 어플리케이션 서비스를 위한 기본 리포지토리
 
 팀 프로젝트 #3: 팀 ThreeKcal
 
-## 기술스택
-<img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=Python&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Spark-3.5.1-E25A1C?style=flat&logo=apachespark&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Airflow-2.7.0-017CEE?style=flat&logo=apacheairflow&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Mariadb-003545?style=flat&logo=mariadb&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logoColor=F5F7F8"/>
 
 
 `DistilRoBERTa` 기반의 text classifier 모델인 [michellejieli/emotion_text_classifier](https://huggingface.co/michellejieli/emotion_text_classifier) 을 통해:
@@ -14,8 +12,10 @@ ML 어플리케이션 서비스를 위한 기본 리포지토리
 - Model 부분을 더 알고 싶다면 [이 리포지토리](https://github.com/ThreeKcal/model/tree/main) 확인
 - Airflow 부분을 더 알고 싶다면 [이 리포지토리](https://github.com/ThreeKcal/dags/tree/main) 확인
 - Pyspark 부분을 더 알고 싶다면 [이 리포지토리](https://github.com/ThreeKcal/pyspark/tree/main)  확인
-
-
+<br></br>
+## 기술스택
+<img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=Python&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Spark-3.5.1-E25A1C?style=flat&logo=apachespark&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Airflow-2.7.0-017CEE?style=flat&logo=apacheairflow&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Mariadb-003545?style=flat&logo=mariadb&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logoColor=F5F7F8"/>
+<br></br>
 ## Model Features
 ### `streamlit` [어플리케이션](http://54.180.132.11:8002/) 시연 모습
 - `텍스트 업로드` 페이지: 이용자가 `username`과 `comment`를 입력해 데이터베이스로 전송시킵니다
@@ -78,12 +78,12 @@ ML 어플리케이션 서비스를 위한 기본 리포지토리
 ## Usage
 - `fastapi` 서버 런칭
 ```bash
-$ uvicorn src/threekcal_model/api:app --host 0.0.0.0 --port 8000
+$ uvicorn src/threekcal_model/api:app --host 0.0.0.0 --port 8001
 ```
 
 - `steamlit` 서버 런칭
 ```bash
-$ streamlit run src/threekcal_model/streamlit/main.py --server.port 9000
+$ streamlit run src/threekcal_model/streamlit/main.py --server.port 8501
 ```
 
 - 에어플로우 폴더의 `airflow.cfg` 파일을 수정해 `dags_folder` 값을 본 리포지토리 경로로 바꿉니다.

@@ -5,7 +5,7 @@ ML 어플리케이션 서비스를 위한 기본 리포지토리
 팀 프로젝트 #3: 팀 ThreeKcal
 
 ## 기술스택
-<img src="https://img.shields.io/badge/Python-3.8-3776AB?style=flat&logo=Python&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Spark-3.5.1-E25A1C?style=flat&logo=apachespark&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Airflow-2.7.0-017CEE?style=flat&logo=apacheairflow&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Mariadb-003545?style=flat&logo=mariadb&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logoColor=F5F7F8"/>
+<img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=Python&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Spark-3.5.1-E25A1C?style=flat&logo=apachespark&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Airflow-2.7.0-017CEE?style=flat&logo=apacheairflow&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Mariadb-003545?style=flat&logo=mariadb&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=F5F7F8"/>  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logoColor=F5F7F8"/>
 
 
 `DistilRoBERTa` 기반의 text classifier 모델인 [michellejieli/emotion_text_classifier](https://huggingface.co/michellejieli/emotion_text_classifier) 을 통해:

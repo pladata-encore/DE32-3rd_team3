@@ -17,7 +17,7 @@ ML 어플리케이션 서비스를 위한 기본 리포지토리
 - [기술 스택](#기술-ㅅ택)
 - [Model Features](#Model-Features)
 - [Airflow Features](#Airflow-Features)
-- [pyspark Features](#`pyspark`-Features)
+- [pyspark Features](#pyspark-Features)
 - [Usage](#Usage)
 - [개발 관련 사항](#개발-관련-사항)
 <br></br>
@@ -76,7 +76,7 @@ ML 어플리케이션 서비스를 위한 기본 리포지토리
 ![image](https://github.com/user-attachments/assets/982106c8-cfbc-42dc-aadb-9c74c00ac2a9)
 
 
-## `pyspark` Features
+## pyspark Features
 ![pyspark_proj](https://github.com/user-attachments/assets/c678225e-e5c0-4da0-9cac-b8025b5a8a74)
 
 `airflow`로 저장된 `predict.log` 파일을 읽어서 `MariaDB`에 있는 테이블을 업데이트합니다.
